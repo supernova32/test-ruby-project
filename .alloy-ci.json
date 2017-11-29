@@ -1,9 +1,7 @@
 {
-  "Rspec Tests": {
+  "Run Test": {
     "script": [
-      "bundle install --path vendor/bundle",
-      "bundle exec rake db:setup",
-      "bundle exec rspec"
+      "ruby test.rb"
     ]
   },
   "variables": {
