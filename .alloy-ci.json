@@ -5,5 +5,8 @@
       "bundle exec rake db:setup",
       "bundle exec rspec"
     ]
+  },
+  "variables": {
+    "CI_DEBUG_TRACE": true
   }
 }
