@@ -3,8 +3,5 @@
     "script": [
       "ruby test.rb"
     ]
-  },
-  "variables": {
-    "CI_DEBUG_TRACE": "true"
   }
 }
